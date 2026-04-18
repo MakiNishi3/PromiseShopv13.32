@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: #111;
+  color: #fff;
+}
+
+.ui-container {
+  padding: 20px;
+}
+
+.button {
+  background: #222;
+  color: #fff;
+  padding: 12px 18px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover,
+.button:active {
+  background: #444;
+}
+
+.option {
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: #fff;
+  margin-right: 6px;
+}
+
+input[type="range"] {
+  width: 100%;
+  appearance: none;
+  height: 6px;
+  background: #fff;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.slider-container {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.alert {
+  padding: 12px;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.alert-error {
+  background: red;
+}
+
+.alert-warning {
+  background: yellow;
+  color: #000;
+}
+
+.alert-success {
+  background: green;
+}
+
+.top-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.plugin {
+  background: #1a1a1a;
+  padding: 15px;
+  margin: 10px 0;
+}
